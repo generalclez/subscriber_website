@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import Bell from "./assets/bell-860.png";
+import Check from "./assets/check-mark.png";
 
 function Form() {
   // State variables to control visibility, store input values and manage the alert
@@ -86,7 +87,7 @@ function Form() {
             <p>To stay updated with The Glory Journal publication monthly.</p>
           </div>
           <form
-            className="form bg-primary bg-opacity-25 rounded rounded-3"
+            className="form bg-primary bg-opacity-50 rounded rounded-3"
             onSubmit={handleSubmit}
           >
             <div className="form-group">
@@ -130,7 +131,7 @@ function Form() {
                 <input
                   type="country"
                   name="country"
-                  className="form-control w-"
+                  className="form-control"
                   placeholder="Enter Country"
                   required
                   value={inputValues.country}
@@ -150,7 +151,7 @@ function Form() {
               </div>
             </div>
             <Button
-              className="fw-bold fs-5 mt-3"
+              className="btn1 fw-bold fs-5 mt-3"
               variant="warning"
               type="submit"
             >
@@ -164,10 +165,11 @@ function Form() {
       {showAlert && (
         <div className="success">
           <p className="sub">
-            Thank You!
-            <p className="fw-bold">Subscribed Successfully!</p>
+            <img src={Check} alt="" />
+            {""} Thank You!
+            <p className="fw-bold mt-3">Subscribed Successfully!</p>
           </p>
-          <Button onClick={handleGoBack} variant="warning">
+          <Button className="btn1" onClick={handleGoBack} variant="warning">
             Okay!
           </Button>
         </div>

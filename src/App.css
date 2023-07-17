@@ -21,35 +21,32 @@
   background-color: white;
   color: black;
   width: 28rem;
-  padding-bottom: 3px;
-  margin: auto;
-  margin-top: rem;
   margin-bottom: 3rem;
 }
 
-.page {
-  margin-left: 19.6rem;
-}
-
 .btn1 {
-  box-shadow: 2px 2px rgb(17, 1, 1);
+  box-shadow: 2px 2px rgb(4, 13, 95);
 }
 
 .form {
-  width: 50%;
+  width: 22rem;
   margin: auto;
   padding: 2rem;
   height: 21rem;
 }
+.form-group {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
 
 .formLocation {
-  /* width: 26rem; */
   display: flex;
 }
 
 .success {
   width: 15rem;
-  height: 11rem;
+  height: 12rem;
   margin: auto;
   padding: auto;
   background-color: white;
@@ -58,7 +55,7 @@
 }
 
 .sub {
-  padding: 1rem 0 1.7rem 0;
+  padding: 1rem;
 }
 
 .img {

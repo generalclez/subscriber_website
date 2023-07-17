@@ -11,17 +11,18 @@ function New() {
     // This file is the parent file which contained the Form.js file
     <Container
       fluid
-      className="bg-success"
       style={{
         backgroundImage: `url(${dd}`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
+        backgroundPosition: "center",
+        position: "relative",
         height: "100%",
         width: "100%",
       }}
     >
-      <Row className="row justify-content-center ">
-        <Col xs={12} sm={12} md={9} className="col1">
+      <Row className="row justify-content-center">
+        <Col xs={12} sm={12} md={12} className="col1">
           <div className="mainDiv">
             <div>
               <Image
@@ -35,11 +36,11 @@ function New() {
                 Glory <span className="text-warning"> Journal</span>
               </h1>
               <i className="page">Subscription Page</i>
-              <h6 className="monthly">
+              <h6 className="monthly mx-auto pb-1">
                 (A MONTHLY PUBLICATION OF THE CITYGATE CHURCH)
               </h6>
             </div>
-            <section>
+            <div>
               <Form />
               <Button className=" mt-3" variant="outline-primary">
                 <a
@@ -50,7 +51,7 @@ function New() {
                   Download Vol.1
                 </a>
               </Button>
-            </section>
+            </div>
           </div>
         </Col>
       </Row>
@@ -70,23 +71,24 @@ function New() {
             className="row justify-content-center"
             style={{ marginBottom: "5rem" }}
           >
-            <Col md={12} lg={8} className="col1 pb-4">
+            <Col md={12} lg={9} className="col1 pb-4">
               <div>
                 <Image
                   thumbnail
                   className="img w-100 ps-5"
                   src={Page1}
-                  style={{ height: "45rem" }}
+                  style={{ height: "40rem" }}
                 />
               </div>
             </Col>
-            <Col md={12} lg={8} className="col1 pb-4">
+            <Col md={12} lg={9} className="col1 pb-4">
               <div>
                 <Image
+                  fluid
                   thumbnail
                   className="img w-100"
                   src={Page2}
-                  style={{ height: "45rem" }}
+                  style={{ height: "37rem" }}
                 />
               </div>
             </Col>
