@@ -86,7 +86,7 @@ function Form() {
             <p>To stay updated with The Glory Journal publication monthly.</p>
           </div>
           <form
-            className="form bg-success bg-opacity-25"
+            className="form bg-primary bg-opacity-25 rounded rounded-3"
             onSubmit={handleSubmit}
           >
             <div className="form-group">
@@ -126,22 +126,22 @@ function Form() {
             </div>
             <br />
             <div className="formLocation">
-              <div className="form-group">
+              <div className="formLocation form-group">
                 <input
-                  type="location"
-                  name="location"
-                  className="form-control"
+                  type="country"
+                  name="country"
+                  className="form-control w-"
                   placeholder="Enter Country"
                   required
                   value={inputValues.country}
                   onChange={handleChange}
                 />
               </div>
-              <div className="form-group ms-2">
+              <div className="formLocation form-group ">
                 <input
-                  type="location"
-                  name="location"
-                  className="form-control"
+                  type="state"
+                  name="state"
+                  className=" form-control ms-2"
                   placeholder="Enter State"
                   required
                   value={inputValues.state}

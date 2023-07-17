@@ -12,7 +12,7 @@ function Footer() {
   const currYear = new Date().getFullYear();
 
   return (
-    <Container fluid="xs">
+    <Container fluid>
       <Row
         className="row justify-content-center "
         style={{ backgroundColor: "rgb(11, 20, 20)" }}

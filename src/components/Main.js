@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Col, Row, Button, Image } from "react-bootstrap";
-import page from "./assets/page.jpg";
+import dd from "./assets/ddd.jpg";
 import Form from "./Form";
 import img from "./assets/IMG-.jpg";
 import Page1 from "./assets/page-1.jpg";
@@ -10,13 +10,14 @@ function New() {
   return (
     // This file is the parent file which contained the Form.js file
     <Container
-      fluid="xs"
+      fluid
       className="bg-success"
       style={{
-        backgroundImage: `url(${page}`,
+        backgroundImage: `url(${dd}`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         height: "100%",
+        width: "100%",
       }}
     >
       <Row className="row justify-content-center ">
@@ -40,7 +41,7 @@ function New() {
             </div>
             <section>
               <Form />
-              <Button className=" mt-3" variant="outline-success">
+              <Button className=" mt-3" variant="outline-primary">
                 <a
                   href="/"
                   style={{ textDecoration: "none" }}
@@ -79,7 +80,7 @@ function New() {
                 />
               </div>
             </Col>
-            <Col md={1} lg={8} className="col1 pb-4">
+            <Col md={12} lg={8} className="col1 pb-4">
               <div>
                 <Image
                   thumbnail
