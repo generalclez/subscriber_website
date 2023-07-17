@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.col1 {
+  background-color: rgb(11, 20, 20);
+  opacity: 99%;
+}
+
+.mainDiv {
+  margin-top: 2rem;
+  margin-bottom: 14rem;
+  color: white;
+}
+.welcome {
+  font-size: 45px;
+}
+
+.glory {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+.monthly {
+  font-weight: bold;
+  background-color: white;
+  color: black;
+  width: 28rem;
+  padding-bottom: 3px;
+  margin: auto;
+  margin-top: rem;
+  margin-bottom: 3rem;
+}
+
+.page {
+  margin-left: 19.6rem;
+}
+
+.btn1 {
+  box-shadow: 2px 2px rgb(17, 1, 1);
+}
+
+.form {
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  height: 21rem;
+}
+
+.formLocation {
+  width: 26rem;
+  display: flex;
+}
+
+.success {
+  width: 15rem;
+  height: 11rem;
+  margin: auto;
+  padding: auto;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+
+.sub {
+  padding: 1rem 0 1.7rem 0;
+}
+
+.img {
+  box-shadow: 2px 2px rgb(247, 241, 241);
+}
