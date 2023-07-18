@@ -20,9 +20,11 @@ function Footer() {
         <hr className="border border-2" />
 
         <Col xs={12} sm={6} md={6} className="mt-4 text-white">
-          <div className="ms-">
+          <div className="ms-3">
             <img fluid src={address} alt="" />
-            <span className="mb-4 ms-3">120 UI, Ajibode, Ojoo Road, </span>
+            <span className="mb-4 ms-3">
+              120 UI, Ajibode, Ojoo Road, Ibadan
+            </span>
           </div>
           <div className="mt-4">
             <img fluid src={Fill} alt="" />
@@ -30,7 +32,7 @@ function Footer() {
               info@thecitygatechurch.org
             </span>
           </div>
-          <div className="mt-3">
+          <div className="mt-3" style={{ marginLeft: "-5.4rem" }}>
             <img fluid src={Fill1} alt="" />
             <span style={{ fontSize: "17px", paddingLeft: "20px" }}>
               +2347060904430
@@ -39,13 +41,18 @@ function Footer() {
         </Col>
 
         <Col xs={12} sm={6} md={6} className="mt-4">
-          <div className="d-flex justify-content-between">
+          <div className="d-flex" style={{ marginLeft: "7rem" }}>
             <a href="https://web.facebook.com/dcitygatechurch.com">
               <img fluid src={Fb} alt="" style={{ width: "35px" }} />
             </a>
 
             <a href="http://twitter.com/dcitygatechurch">
-              <img fluid src={Twitter} alt="" style={{ width: "35px" }} />
+              <img
+                fluid
+                src={Twitter}
+                alt=""
+                style={{ width: "35px", margin: "0 1rem" }}
+              />
             </a>
 
             <a href="https://www.dcititigatechurch.com">
