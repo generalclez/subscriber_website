@@ -4,15 +4,16 @@
 
 .mainDiv {
   margin-top: 2rem;
-  margin-bottom: 14rem;
+  margin-bottom: 6rem;
   color: white;
 }
+
 .welcome {
-  font-size: 45px;
+  font-size: 3.5em;
 }
 
 .glory {
-  font-size: 70px;
+  font-size: 5em;
   font-weight: bolder;
 }
 
@@ -20,8 +21,8 @@
   font-weight: bold;
   background-color: white;
   color: black;
-  width: 28rem;
-  margin-bottom: 3rem;
+  max-width: 28rem;
+  margin-bottom: 2rem;
 }
 
 .btn1 {
@@ -29,15 +30,10 @@
 }
 
 .form {
-  width: 22rem;
+  max-width: 22rem;
   margin: auto;
   padding: 2rem;
-  height: 21rem;
-}
-.form-group {
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+  height: auto;
 }
 
 .formLocation {
@@ -45,8 +41,7 @@
 }
 
 .success {
-  width: 15rem;
-  height: 12rem;
+  max-width: 15rem;
   margin: auto;
   padding: auto;
   background-color: white;

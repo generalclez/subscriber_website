@@ -6,19 +6,18 @@ import img from "./assets/IMG-.jpg";
 import Page1 from "./assets/page-1.jpg";
 import Page2 from "./assets/page-2.jpg";
 
-function New() {
+function Main() {
   return (
     // This file is the parent file which contained the Form.js file
     <Container
       fluid
       style={{
-        backgroundImage: `url(${dd}`,
+        backgroundImage: `url(${dd})`,
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
         backgroundPosition: "center",
         position: "relative",
-        height: "100%",
-        width: "100%",
+        backgroundColor: "blue",
       }}
     >
       <Row className="row justify-content-center">
@@ -99,4 +98,4 @@ function New() {
   );
 }
 
-export default New;
+export default Main;
